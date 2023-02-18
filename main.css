@@ -1,0 +1,60 @@
+h1{
+    font-size: 2rem;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #eee;
+}
+.btn{
+    background-color: #ccc;
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    transition: .3s ease-in-out;
+    border-radius:  10px;
+}
+.btn:hover {
+    background-color: white;
+}
+body{
+    background-color: #eee;
+}
+.divison{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.imagem:hover, .imagem:active {
+    display: grid;
+    background-color: rgb(159, 158, 158);
+}
+.imagem {
+    display: grid;
+    background-color: rgba(204, 204, 204, 0.736);
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 0px;
+}
+.divisão{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.img {
+    display: grid;
+    background-color: rgba(204, 204, 204, 0.736);
+    width: 75px;
+    height: 75px;
+    place-items: center ;
+    border-radius: 25px;
+}
+.tamanho {
+    height: 150px;
+}
